@@ -1,4 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
+.con,
+.special-con {
+  cursor: pointer;
+  display: none;
+}
+
+.bar {
+  display: block;
+  height: 3px;
+  width: 30px;
+  background: #ffffff;
+  margin: 5px auto;
+}
+
+.con {
+  width: auto;
+  margin: 0 auto;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+}
+
+.con.active .bar, .special-con.active .bar {
+  background-color: #f92c8c;
+}
+
+.col {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  height: auto;
+  position: relative;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.bar {
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+}
+
+.con.active .top {
+  -webkit-transform: translateY(15px) rotateZ(45deg);
+  transform: translateY(15px) rotateZ(45deg);
+}
+
+.con.active .bottom {
+  -webkit-transform: translateY(-15px) rotateZ(-45deg);
+  transform: translateY(-15px) rotateZ(-45deg);
+}
+
+.con.active .middle {
+  width: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .con, .special-con {
+    cursor: pointer;
+    display: inline-block;
+  }
+}
+
+.header-logo {
+  padding-left: 20px;
+}
+
 .header-inner {
   background-color: #181818;
   width: 100%;
@@ -307,6 +374,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .headear-block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .intro-inner {
     position: relative;
     height: 500px;
