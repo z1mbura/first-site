@@ -1,0 +1,54 @@
+.client {
+    background-color: #000000;
+}
+
+.client-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .client-content {
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+
+        .client-suptitle {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 42px;   
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+        
+        .client-subtitle {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            color: #C0C0C0;
+        }
+    }
+
+    .client-logo {
+        margin-bottom: 80px;
+        margin-top: 40px;
+        .client-logo-l {
+            display: flex;
+            align-items: center;
+        }
+
+        .client-logo-item {
+            padding-right: 105px;
+        }
+    }
+}
+
+.star {
+    background: url(/img/IMAGE8.jpg) center no-repeat;
+    background-size: cover;
+}

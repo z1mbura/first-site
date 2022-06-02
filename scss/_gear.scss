@@ -1,0 +1,64 @@
+.gear-s {
+    background-color: #000000;
+    .gear-block {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        .gear-content {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .gear-c {
+                width: 55%;
+            .gear-suptitle {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;  
+                color: #FFFFFF;
+                padding-bottom: 6px;
+            }
+            .gear-subtitle {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 32px;
+                color: #FFFFFF;
+                padding-bottom: 14px;
+            }
+            .gear-text {
+                font-family: 'Poppins';
+                width: 80%;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+            } 
+            .gear-but {
+                background-color: #FFFFFF;
+                    color: #000000;
+                    width: 25%;
+                    padding: 9px 10px 13px 42px;
+                    border-radius: 13px;
+
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: 0.4px;
+
+                    margin-top: 20px;
+            }
+            }
+        }
+    }
+}
+
+.monstera {
+    background: url(/img/IMAGE7.jpg) center no-repeat;
+    background-size: cover;
+    height: 800px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+@import "header";
+@import "gallery";
+@import "gear";
+@import "client";
+@import "help";
+@import "footer";
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+*,ul, li, h1,h2,h3,h4,h5,h6, p, ul, li {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
