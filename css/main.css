@@ -376,14 +376,14 @@
 @media screen and (max-width: 768px) {
   .intro-inner {
     position: relative;
-    height: 500px;
+    height: 580px;
   }
   .intro-subtitle {
     font-size: 13px;
     width: 70%;
   }
   .charakteristiks {
-    bottom: 50px;
+    bottom: 35px;
   }
   .header-nav {
     display: block;
