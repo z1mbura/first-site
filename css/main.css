@@ -374,11 +374,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header-block {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
   .intro-inner {
     position: relative;
     height: 500px;
