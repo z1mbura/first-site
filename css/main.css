@@ -136,6 +136,10 @@
   border-radius: 10px;
 }
 
+.nav-item:last-child:after {
+  content: none;
+}
+
 /* intro */
 .intro-inner {
   position: relative;
