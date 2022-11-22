@@ -5,9 +5,9 @@ galleryButton.forEach(function(item) {
     item.addEventListener('mouseover', () => {
         if(galleryItem.classList != 'shadow') {
             console.log('hui')
-            galleryItem.classList.add('shadow')
+            galleryItem[1].classList.add('shadow')
             }else {
-                galleryItem.classList.remove('shadow')    
+                galleryItem[1].classList.remove('shadow')    
             }
         
     })
