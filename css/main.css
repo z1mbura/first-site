@@ -137,7 +137,9 @@
 }
 
 .nav-item:last-child:hover:after {
-  content: none;
+  content: " ";
+  color: #ffffff;
+  background-color: #181818;
 }
 
 /* intro */
