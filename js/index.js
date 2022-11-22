@@ -14,7 +14,7 @@ const galleryButton = document.querySelector('.gallery-but')
 const galleryItem = document.querySelector('.gallery-item')
 
 
-galleryButton.addEventListener('mouseover', () => {
+galleryButton.addEventListener('mouseout', () => {
     if(galleryItem.classList != 'shadow') {
         console.log('hui')
         galleryItem.classList.add('shadow')
