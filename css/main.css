@@ -295,6 +295,9 @@
 .gallery-item {
   margin: 12px 12px;
   position: relative;
+  
+  transition: box-shadow 0.3s linear;
+  
 }
 
 .gallery-block .gallery-wrap .gallery-item .gallery-text {
