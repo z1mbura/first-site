@@ -873,12 +873,12 @@
 
 /*-------------------------*/
 .footer-soc-item {
-  transition: color 0.35s;
+  transition: background-color 0.35s;
 }
 
 .footer-soc-item:hover {
-  color:#fff;
-  transition: color 0.35s;
+  background-color:#fff;
+  transition: background-color 0.35s;
 }
 
 .footer-e {
