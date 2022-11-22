@@ -8,3 +8,19 @@ navBurger.addEventListener('click', () => {
     }
 
 })
+
+
+const galleryButton = document.querySelector('gallery-but')
+const galleryItem = document.querySelector('gallery-item')
+
+function HoverCard() {
+    galleryButton.addEventListener('mouseover', () => {
+        if(galleryItem.classList.contains('shadow')) {
+            galleryItem.classList.add('shadow')
+        }else {
+            galleryItem.classList.remove('shadow')    
+        }
+    }
+}
+                                   
+HoverCard()
