@@ -136,7 +136,7 @@
   border-radius: 10px;
 }
 
-.nav-item:last-child:hover:after {
+.nav-item:last-child:hover {
   content: none;
   color: #ffffff;
   background-color: #181818;
