@@ -136,7 +136,7 @@
   border-radius: 10px;
 }
 
-.nav-item:last-child:after {
+.nav-item:last-child:hover:after {
   content: none;
 }
 
