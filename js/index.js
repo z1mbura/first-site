@@ -19,4 +19,4 @@ galleryButton.addEventListener('mouseover', () => {
             galleryItem.classList.remove('shadow')    
         }
     })
-}
+
