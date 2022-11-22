@@ -10,8 +10,8 @@ navBurger.addEventListener('click', () => {
 })
 
 
-const galleryButton = document.querySelector('gallery-but')
-const galleryItem = document.querySelector('gallery-item')
+const galleryButton = document.querySelector('.gallery-but')
+const galleryItem = document.querySelector('.gallery-item')
 galleryButton.addEventListener('mouseover', () => {
     if(galleryItem.classList != 'shadow') {
         galleryItem.classList.add('shadow')
