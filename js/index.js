@@ -1,14 +1,14 @@
 const galleryButton = document.querySelectorAll('.gallery-but')
 const galleryItem = document.querySelectorAll('.gallery-item')
 
-galleryButton.forEach(function(item) {
+galleryButton.forEach((item, index) => {
     item.addEventListener('mouseover', (event) => {
         if(galleryItem.classList != 'shadow') {
-            galleryItem[int(item)].classList.add('shadow')
+            galleryItem[index].classList.add('shadow')
         }
     })
     item.addEventListener('mouseout', (event) => {
-        galleryItem[int(item)].classList.remove('shadow')
+        galleryItem[index].classList.remove('shadow')
     })
 })
 
