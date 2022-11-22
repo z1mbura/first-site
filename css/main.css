@@ -291,8 +291,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
-.gallery-block .gallery-wrap .gallery-item {
+.gallery-item {
   margin: 12px 12px;
   position: relative;
 }
@@ -326,7 +325,7 @@
   padding-bottom: 17px;
 }
 
-.gallery-block .gallery-wrap .gallery-item .gallery-text .gallery-but {
+ .gallery-but {
   background-color: #FFFFFF;
   color: #000000;
   width: 29.4%;
@@ -338,6 +337,9 @@
   line-height: 20px;
   letter-spacing: 0.4px;
 }
+
+
+
 
 .sunset {
   background: url(/img/IMAGE5.jpg) center no-repeat;
