@@ -13,7 +13,7 @@ navBurger.addEventListener('click', () => {
 const galleryButton = document.querySelector('.gallery-but')
 const galleryItem = document.querySelector('.gallery-item')
 
-if(galleryItem.classList.contains('shadow')) console.log('hui')
+if(galleryItem.classList != 'shadow') console.log('hui')
 
 galleryButton.addEventListener('mouseover', () => {
     if(galleryItem.classList.contains('shadow')) {
