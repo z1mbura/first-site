@@ -872,15 +872,6 @@
 }
 
 /*-------------------------*/
-.footer-soc-item {
-  transition: background-color 0.35s;
-}
-
-.footer-soc-item:hover {
-  background-color:#fff;
-  transition: background-color 0.35s;
-}
-
 .footer-e {
   padding: 0 5px;
   display: -webkit-box;
