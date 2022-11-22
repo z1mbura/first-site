@@ -8,9 +8,7 @@ galleryButton.forEach(function(item) {
         }
     })
     item.addEventListener('mouseout', () => {
-        if(galleryItem.classList == 'shadow') {
-            galleryItem[1].classList.remove('shadow')
-        }
+        galleryItem[1].classList.remove('shadow')
     })
 })
 
