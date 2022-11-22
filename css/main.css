@@ -108,16 +108,18 @@
   position: relative;
 }
 
-.nav-item::before {
+.nav-item::after {
   content: " ";
   position: absolute;
+  left:0;
+  bottom:0;
   width: 0%;
   transition: width 0.35s;
   height: 2px;
   background-color:#fff;
 }
 
-.nav-item:before:hover {
+.nav-item:hover:after {
   width:100%;
   transition: width 0.35s;
 }
