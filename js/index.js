@@ -1,13 +1,13 @@
 const galleryButton = document.querySelectorAll('.gallery-but')
 const galleryItem = document.querySelectorAll('.gallery-item')
 
-galleryButton.forEach(function(i) {
-    i.addEventListener('mouseover', () => {
+galleryButton.forEach(function(item) {
+    item.addEventListener('mouseover', () => {
         if(galleryItem.classList != 'shadow') {
             console.log('hui')
-            galleryItem[i].classList.add('shadow')
+            galleryItem.classList.add('shadow')
             }else {
-                galleryItem[i].classList.remove('shadow')    
+                galleryItem.classList.remove('shadow')    
             }
         
     })
