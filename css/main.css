@@ -134,9 +134,13 @@
   background-color: #ffffff;
   color: #181818;
   border-radius: 10px;
+  transition: color 0.35s;
+  transition: background-color 0.35s;
 }
 
 .nav-item:last-child:hover {
+  transition: color 0.35s;
+  transition: background-color 0.35s;
   content: none;
   color: #ffffff;
   background-color: #181818;
