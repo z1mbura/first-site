@@ -20,7 +20,7 @@ function HoverCard() {
         }else {
             galleryItem.classList.remove('shadow')    
         }
-    }
+    })
 }
                                    
 HoverCard()
