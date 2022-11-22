@@ -6,7 +6,7 @@ galleryButton.forEach(function(item) {
         if(galleryItem.classList != 'shadow') {
             console.log('hui')
             galleryItem[1].classList.toggle('shadow')
-        
+        }
     })
 })
 
