@@ -355,7 +355,7 @@
   background-color:#fff;
 }
 
-.gallery-but:hover:after {
+.gallery-but:after:hover {
     transition: color 0.35s;
     transition: background-color 0.35s;
     content: none;
