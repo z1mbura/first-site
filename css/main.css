@@ -367,7 +367,7 @@
     transition: background-color 0.35s;
     content: none;
     color: #ffffff;
-    background-color: #181818;
+    background-color: none;
 }
 
 .sunset {
