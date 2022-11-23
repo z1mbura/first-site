@@ -584,8 +584,7 @@
   line-height: 20px;
   color: #FFFFFF;
 }
-
-.gear-s .gear-block .gear-content .gear-c .gear-but {
+.gear-but {
   background-color: #FFFFFF;
   color: #000000;
   width: 25%;
@@ -597,6 +596,32 @@
   line-height: 20px;
   letter-spacing: 0.4px;
   margin-top: 20px;
+  position:relative;
+  trancisiton: background-color 0.35s linear;
+  transition: color 0.35s linear;
+}
+
+.gear-but::after {
+  content: " ";
+  position: absolute;
+  left:50%;
+  bottom:0;
+  width: 0%;
+  transition: width 0.35s;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color:#fff;
+}
+
+.gear-but:hover:after {
+  width:100%;
+  transition: width 0.35s;
+}
+
+.gear-but:hover {
+  backgorund-color: transparent;
+  trancisiton: background-color 0.35s linear;
+  transition: color 0.35s linear;
 }
 
 .monstera {
