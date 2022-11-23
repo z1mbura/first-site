@@ -619,7 +619,9 @@
 }
 
 .gear-but:hover {
-  backgorund-color: #181818;
+  content: none;
+  color: #ffffff;
+  background-color: #181818;
   trancisiton: background-color 0.35s linear;
   transition: color 0.35s linear;
 }
