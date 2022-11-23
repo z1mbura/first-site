@@ -343,7 +343,7 @@
   position: relative;
 }
 
-.gallery-but:after {
+.gallery-but::after {
   content: " ";
   position: absolute;
   left:50%;
@@ -360,7 +360,7 @@
   transition: width 0.35s;
 }
 
-.gallery-but:hover:after {
+.gallery-but:hover {
     transition: color 0.35s;
     transition: background-color 0.35s;
     content: none;
