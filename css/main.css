@@ -342,8 +342,25 @@
   letter-spacing: 0.4px;
 }
 
+.gallery-but::after {
+    content: " ";
+  position: absolute;
+  left:50%;
+  bottom:0;
+  width: 0%;
+  transition: width 0.35s;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color:#fff;
+}
 
-
+.gallery-but:hover:after {
+    transition: color 0.35s;
+    transition: background-color 0.35s;
+    content: none;
+    color: #ffffff;
+    background-color: #181818;
+}
 
 .sunset {
   background: url(/img/IMAGE5.jpg) center no-repeat;
