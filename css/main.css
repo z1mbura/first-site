@@ -355,7 +355,12 @@
   background-color:#fff;
 }
 
-.gallery-but:after:hover {
+.gullery-but:hover:after {
+  width:100%;
+  transition: width 0.35s;
+}
+
+.gallery-but:hover:after {
     transition: color 0.35s;
     transition: background-color 0.35s;
     content: none;
