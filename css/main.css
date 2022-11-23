@@ -357,7 +357,7 @@
   background-color:#fff;
 }
 
-.hover {
+.hover:after {
   width:100%;
   transition: width 0.35s;
 }
