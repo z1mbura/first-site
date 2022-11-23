@@ -340,10 +340,11 @@
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.4px;
+  position: relative;
 }
 
-.gallery-but::after {
-    content: " ";
+.gallery-but:after {
+  content: " ";
   position: absolute;
   left:50%;
   bottom:0;
