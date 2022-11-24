@@ -621,8 +621,8 @@
 .gear-but:hover {
   content: none;
   color: #ffffff;
-  background-color: #181818;
-  trancisiton: background-color 0.35s linear;
+  background-color: transparent;
+  transisiton: background-color 0.35s linear;
   transition: color 0.35s linear;
 }
 
