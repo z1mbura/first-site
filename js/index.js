@@ -8,10 +8,12 @@ function Skroll() {
       e.preventDefault()
 
       const blockID = anchor.getAttribute('href')
+      useEffect(() => {
         setTimeout(() => document.querySelector(blockID).scrollIntoView({
-          behavior:'smooth',
-          block: 'start'
-        }), 1000); 
+            behavior:'smooth',
+            block: 'start'
+          }), 1000); 
+      })
     })
   }
 }
