@@ -2,19 +2,21 @@ const galleryButton = document.querySelectorAll('.gallery-but')
 const galleryItem = document.querySelectorAll('.gallery-item')
 
 const anchors = document.querySelectorAll('a.nav_item')
+function Skroll() {
+  for (let anchor of anchors) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault()
 
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault()
-    
-    const blockID = anchor.getAttribute('href')
-    
-    document.querySelector(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+      const blockID = anchor.getAttribute('href')
+
+      document.querySelector(blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
     })
-  })
+  }
 }
+
 galleryButton.forEach((item, index) => {
     item.addEventListener('mouseover', (event) => {
         if(galleryItem.classList != 'shadow') {
@@ -28,4 +30,4 @@ galleryButton.forEach((item, index) => {
     })
 })
 
-
+setTimeout(Skroll, 3000)
