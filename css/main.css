@@ -106,11 +106,6 @@
 }
 
 .nav-item {
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-  font-size: 15px;
-  margin-right: 36px;
   position: relative;
 }
 
@@ -120,6 +115,7 @@
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 15px;
+  margin-right: 36px;
 }
 
 .nav-item:last-child {
