@@ -120,7 +120,12 @@
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 15px;
-  margin-right: 36px;
+}
+
+.nav-item:last-child {
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #181818;
 }
 
 .nav-item::after {
