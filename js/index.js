@@ -30,4 +30,4 @@ galleryButton.forEach((item, index) => {
     })
 })
 
-setTimeout(Skroll, 3000)
+Skroll()
