@@ -150,9 +150,6 @@
 
 .nav-item:last-child {
   padding: 7px 15px;
-  font-weight: 500;
-  background-color: #ffffff;
-  color: #181818;
   border-radius: 10px;
   transition: color 0.35s;
   transition: background-color 0.35s;
