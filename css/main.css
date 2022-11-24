@@ -122,6 +122,7 @@
   font-weight: 500;
   background-color: #ffffff;
   color: #181818;
+  margin-right: 0;
 }
 
 .nav-item::after {
