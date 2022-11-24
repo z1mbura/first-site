@@ -114,6 +114,15 @@
   position: relative;
 }
 
+.nav_item {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 36px;
+}
+
 .nav-item::after {
   content: " ";
   position: absolute;
