@@ -597,8 +597,8 @@
   letter-spacing: 0.4px;
   margin-top: 20px;
   position:relative;
-  transition: background-color 0.35s linear;
   transition: color 0.35s linear;
+  transition: background-color 0.35s linear;
 }
 
 .gear-but::after {
@@ -622,7 +622,7 @@
   content: none;
   color: #ffffff;
   background-color: transparent;
-  transisiton: background-color 0.35s linear;
+  transition: background-color 0.35s linear;
   transition: color 0.35s linear;
 }
 
