@@ -8,13 +8,10 @@ function Skroll() {
       e.preventDefault()
 
       const blockID = anchor.getAttribute('href')
-    if(id === 0 && page===true){
-        document.querySelector(blockID).scrollIntoView({
-          behavior: 'smooth',
+        setTimeout(() => document.querySelector(blockID).scrollIntoView({
+          behavior:'smooth',
           block: 'start'
-        })
-        setPage(false);
-      } 
+        }), 1000); 
     })
   }
 }
